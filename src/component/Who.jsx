@@ -1,5 +1,6 @@
 import React from "react";
 import Test from "./Test";
+import box from "../../assets/image/line.png";
 
 const Who = () => {
   return (
@@ -16,7 +17,7 @@ const Who = () => {
         </h1>
 
         <div className="items-center gap-2 inline-flex mx-auto md:mx-0">
-          <img src="./image/line.png" className="h-1" />
+          <img src={box} className="h-1" />
           <h3 className="text-lg lg:text-2xl font-medium text-[#da4ea2]">
             What We Are
           </h3>

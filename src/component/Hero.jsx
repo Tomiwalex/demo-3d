@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import { MeshDistortMaterial, OrbitControls, Sphere } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import heroImage from "../../assets/image/moon.png";
+import box from "../../assets/image/line.png";
 
 const Hero = () => {
   return (
@@ -16,7 +18,7 @@ const Hero = () => {
           </h1>
 
           <div className="flex items-center gap-2">
-            <img src="../../assets/image/line.png" className="h-1" />
+            <img src={box} className="h-1" />
             <h3 className="text-lg lg:text-2xl font-medium text-[#da4ea2]">
               What We Do
             </h3>
@@ -46,7 +48,7 @@ const Hero = () => {
             </Sphere>
           </Canvas>
           <img
-            src="../../assets/image/moon.png"
+            src={heroImage}
             alt=""
             className="w-[90%] lg:max-w-[450px] aspect-square object-contain absolute top-0 bottom-0 m-auto left-0 right-0 bounce"
           />

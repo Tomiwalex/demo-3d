@@ -6,6 +6,7 @@ import {
   Annotation,
   ZoomableGroup,
 } from "react-simple-maps";
+import gMap from "../../assets/data/features.json";
 
 const MapChart = () => {
   return (
@@ -19,7 +20,7 @@ const MapChart = () => {
       className="w-full h-full"
     >
       <Geographies
-        geography="../../assets/data/features.json"
+        geography={gMap}
         fill="#2c0650"
         stroke="#fff"
         strokeWidth={0.5}

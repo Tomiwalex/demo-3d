@@ -3,7 +3,7 @@ import MapChart from "./Map";
 
 const Contacts = () => {
   return (
-    <div className="h-[100dvh]  snap-center flex flex-1 items-center flex-wrap">
+    <div className="min-h-[100dvh] md:h-[100dvh]  snap-center flex flex-1 items-center flex-wrap">
       <div className="basis-full md:basis-1/2 flex flex-col items-center p-5 ">
         <form action="" className="w-full max-w-[400px] font-medium">
           <h3 className="text-xl md:text-3xl lg:text5xl text-left font-medium text-[#f1f1f1]">

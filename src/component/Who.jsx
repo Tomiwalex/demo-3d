@@ -4,7 +4,7 @@ import box from "../../assets/image/line.png";
 
 const Who = () => {
   return (
-    <div className="min-h-[100dvh] lg:h-[100dvh] snap-center flex flex-1 items-center max-w-[1400px]  flex-wrap-reverse ">
+    <div className="min-h-[100dvh] lg:h-[100dvh] snap-center flex flex-1 items-center max-w-[1400px]  flex-wrap ">
       {/* image */}
       <div className="basis-full md:basis-1/2 relative h-[300px]  lg:h-full md:w-full flex items-center">
         <Test />

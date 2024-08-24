@@ -7,7 +7,7 @@ import box from "../../assets/image/line.png";
 
 const Hero = () => {
   return (
-    <div className="h-[100dvh] snap-center scroll-smooth max-w-[1400px] mx-auto flex flex-col">
+    <div className="min-h-[100dvh] md:h-[100dvh] snap-center scroll-smooth max-w-[1400px] mx-auto flex flex-col">
       <Navbar />
 
       <div className="flex flex-1 items-center flex-wrap ">

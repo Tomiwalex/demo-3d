@@ -2,7 +2,7 @@ import React from "react";
 
 const Works = () => {
   return (
-    <div className="w-[100dvw] overflow-hidden h-[100dvh] snap-center flex flex-1 items-center max-w-[1400px] mx-auto px-5 md:px-[50px]">
+    <div className="w-[100dvw] overflow-hidden min-h-[100dvh] md:h-[100dvh] snap-center flex flex-1 items-center max-w-[1400px] mx-auto px-5 md:px-[50px]">
       <div className="basis-full lg:basis-1/2">
         {["Web development", "Mobile development", "Design", "Branding"].map(
           (item, index) => (

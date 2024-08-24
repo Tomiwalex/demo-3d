@@ -19,7 +19,7 @@ const MapChart = () => {
       className="w-full h-full"
     >
       <Geographies
-        geography="./data/features.json"
+        geography="../../assets/data/features.json"
         fill="#2c0650"
         stroke="#fff"
         strokeWidth={0.5}

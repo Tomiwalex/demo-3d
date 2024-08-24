@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
 
           <div className="flex items-center gap-2">
-            <img src="./image/line.png" className="h-1" />
+            <img src="../../assets/image/line.png" className="h-1" />
             <h3 className="text-lg lg:text-2xl font-medium text-[#da4ea2]">
               What We Do
             </h3>
@@ -46,7 +46,7 @@ const Hero = () => {
             </Sphere>
           </Canvas>
           <img
-            src="./image/moon.png"
+            src="../../assets/image/moon.png"
             alt=""
             className="w-[90%] lg:max-w-[450px] aspect-square object-contain absolute top-0 bottom-0 m-auto left-0 right-0 bounce"
           />

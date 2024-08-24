@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "/image/logo.png";
-import searchIcon from "/image/search.png";
+import logo from "../../assets/image/logo.png";
 
 const Navbar = () => {
   return (
@@ -16,7 +15,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center gap-5">
-        <img src={searchIcon} alt="search" className="w-5" />
+        <img src="../../assets/image/search.png" alt="search" className="w-5" />
         <button className="p-3 rounded text-white px-5 font-medium bg-[#da4ea2]">
           Hire Now
         </button>

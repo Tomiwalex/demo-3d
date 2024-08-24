@@ -6,7 +6,7 @@ import Works from "./component/Works";
 function App() {
   return (
     <div
-      style={{ background: "url('../public/image/bg.jpeg')" }}
+      style={{ background: "url('../assets/image/bg.jpeg')" }}
       className="h-[100dvh] bg-cover snap-mandatory snap-y snap scroll-smooth overflow-auto text-white"
     >
       <Hero />
